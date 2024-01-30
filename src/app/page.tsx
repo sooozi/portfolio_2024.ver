@@ -1,13 +1,12 @@
 
-function Index() {
+function Page() {
     return (
-      <div className="Main">
+      <div className="App">
           <p>
-              index page!
+           page Edit <code>src/App.tsx</code> and save to reload.
           </p>
       </div>
     );
   }
   
-  export default Index;
-  
+  export default Page;
