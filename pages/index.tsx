@@ -1,12 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const IndexPage: React.FC = () => {
-  return (
-    <div>
-      <h1>Hello, Next.js!</h1>
-      <p>This is your index page.</p>
-    </div>
-  );
-};
+const Index = () => (
+  <div>
+    <p>Hello Next.js</p>
+  </div>
+);
 
-export default IndexPage;
+export default Index;
